@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
+import { Post } from "./posts/post.model";
 
-interface Post {
-  title: string;
-  content: string;
-}
 
 @Component({
   selector: 'app-root',
