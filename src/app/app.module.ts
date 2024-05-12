@@ -31,7 +31,7 @@ import { PostListComponent } from './posts/post-list/post-list.component';
     MatExpansionModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
   ],
   bootstrap: [AppComponent]
 })

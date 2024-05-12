@@ -10,9 +10,9 @@ import { Post } from "./posts/post.model";
 
 export class AppComponent {
 
-  storedPosts: Post[] = [];
+  // storedPosts: Post[] = [];
 
-  onPostAdded(post: Post) {
-    this.storedPosts.push(post);
-  }
+  // onPostAdded(post: Post) {
+  //   this.storedPosts.push(post);
+  // }
 }
